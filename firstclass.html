@@ -1,0 +1,66 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-02-17 14:46:07
+ * @LastEditTime: 2020-02-19 12:07:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \homework\firstclass.html
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>多表单Test</title>
+
+<body>
+    <!---->
+    <font face="微软雅黑" color="black">
+        <form action="">
+            <fieldset>
+                <legend align="center">个人资料</legend>
+                <font align="center">
+                    <p align="center">姓名：<input type="text" name="username"></p>
+                    <p>性别：
+                        <input type="radio" name="gender" value="男">男
+                        <input type="radio" name="gender" value="女">女
+                    </p>
+                    <p>出生日期：
+                        <input type="text" name="birthday">
+                    </p>
+                    <p>主要经历：
+                        <textarea name="textarea" id="" cols="25" rows="3"></textarea>
+                    </p>
+                    <p>兴趣爱好：
+                        <input type="checkbox" name="hobbies" value="01">老八秘制小汉堡
+                        <input type="checkbox" name="hobbies" value="02">美汁汁儿
+                        <input type="checkbox" name="hobbies" value="03">米肠
+                    </p>
+                </font>
+            </fieldset>
+            <fieldset>
+                <legend align="center">专业与特长</legend>
+                所学专业：
+                <select name="select1" id="">
+                    <option value="">软件工程</option>
+                    <option value="">计算机科学与技术</option>
+                    <option value="">信息管理与信息系统</option>
+                    <option value="">电子商务</option>
+                </select>
+                所学课程：
+                <select name="select2" id="">
+                    <option value="">114514</option>
+                    <option value="">抽象学</option>
+                    <option value="">直播学</option>
+                </select>
+            </fieldset>
+            <p>
+                <input type="submit" value="提交">
+                <input type="reset" value="重填">
+            </p>
+        </form>
+    </font>
+</body>
+
+</html>
